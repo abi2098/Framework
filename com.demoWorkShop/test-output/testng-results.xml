@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Connection to the server]]>
+    </line>
+    <line>
+      <![CDATA[DisConnection to the server]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution Start]]>
+    </line>
+    <line>
+      <![CDATA[Connection to the DB]]>
+    </line>
+    <line>
+      <![CDATA[Login the application]]>
+    </line>
+    <line>
+      <![CDATA[Test Execution success]]>
+    </line>
+    <line>
+      <![CDATA[Logout the application]]>
+    </line>
+    <line>
+      <![CDATA[Close the Browser]]>
+    </line>
+    <line>
+      <![CDATA[DisConnect to the DB]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-21T14:07:48 IST" name="Default suite" finished-at="2024-10-21T14:07:57 IST" duration-ms="8475">
+    <groups>
+    </groups>
+    <test started-at="2024-10-21T14:07:48 IST" name="Default test" finished-at="2024-10-21T14:07:57 IST" duration-ms="8475">
+      <class name="org.bookPage.ComputingAndNetwork">
+        <test-method is-config="true" signature="connectToServer()[pri:0, instance:org.bookPage.ComputingAndNetwork@3d34d211]" started-at="2024-10-21T14:07:48 IST" name="connectToServer" finished-at="2024-10-21T14:07:48 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Connection to the server]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- connectToServer -->
+        <test-method is-config="true" signature="disconnectToServer()[pri:0, instance:org.bookPage.ComputingAndNetwork@3d34d211]" started-at="2024-10-21T14:07:48 IST" name="disconnectToServer" finished-at="2024-10-21T14:07:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DisConnection to the server]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- disconnectToServer -->
+        <test-method is-config="true" signature="connectTo()[pri:0, instance:org.bookPage.ComputingAndNetwork@3d34d211]" started-at="2024-10-21T14:07:48 IST" name="connectTo" finished-at="2024-10-21T14:07:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Connection to the DB]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- connectTo -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:org.bookPage.ComputingAndNetwork@3d34d211]" started-at="2024-10-21T14:07:48 IST" name="openBrowser" finished-at="2024-10-21T14:07:55 IST" duration-ms="6422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.bookPage.ComputingAndNetwork@3d34d211]" started-at="2024-10-21T14:07:55 IST" name="login" finished-at="2024-10-21T14:07:55 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testCase()[pri:0, instance:org.bookPage.ComputingAndNetwork@3d34d211]" started-at="2024-10-21T14:07:55 IST" name="testCase" finished-at="2024-10-21T14:07:56 IST" duration-ms="1625" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Execution success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.bookPage.ComputingAndNetwork@3d34d211]" started-at="2024-10-21T14:07:56 IST" name="logout" finished-at="2024-10-21T14:07:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.bookPage.ComputingAndNetwork@3d34d211]" started-at="2024-10-21T14:07:56 IST" name="closeBrowser" finished-at="2024-10-21T14:07:57 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="disconnectTo()[pri:0, instance:org.bookPage.ComputingAndNetwork@3d34d211]" started-at="2024-10-21T14:07:57 IST" name="disconnectTo" finished-at="2024-10-21T14:07:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DisConnect to the DB]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- disconnectTo -->
+      </class> <!-- org.bookPage.ComputingAndNetwork -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
